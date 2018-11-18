@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec('ls -la /');
+$output = shell_exec('whoami');
 echo "<pre>$output</pre>";
 ?>
