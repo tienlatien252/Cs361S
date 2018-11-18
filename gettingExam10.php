@@ -10,7 +10,7 @@ $conn_string = "host={$db_hostname} dbname={$db_database} user={$db_user} passwo
 try { 
 $db = pg_connect($conn_string); 
 $sql = "SELECT pg_read_file('/var/www/documents/shared/IWptBJzlVU/Final exam v3-draft.rtf');";	
-$search_results = pg_query($db, $sql); $user); 
+$search_results = pg_query($db, $sql); 
 echo $search_results;
 } catch (Exception $e) { 
 echo $e->getMessage(); 
