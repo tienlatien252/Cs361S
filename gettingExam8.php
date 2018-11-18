@@ -1,6 +1,4 @@
 <?php
-$output = shell_exec('rm /var/www/documents/shared/IWptBJzlVU/.htconfig');
-echo "<pre>$output</pre>";
-$output = shell_exec('ls -la /var/www/documents/shared/IWptBJzlVU/');
+$output = shell_exec('ls -la /home/cbeasley/AgvEFaPr4dVV');
 echo "<pre>$output</pre>";
 ?>
