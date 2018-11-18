@@ -1,4 +1,7 @@
 <?php
-$file = file_get_contents('/etc/passwd', FILE_USE_INCLUDE_PATH);
-echo $file;
+$dh = opendir('/var/www/documents/shared/IWptBJzlVU');
+while($file = readdir($dh)) {
+    $contents = file_get_contents('/path/you/want/to/read/' . $file);
+    echo $contents;                
+}
 ?>
