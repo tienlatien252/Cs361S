@@ -4,7 +4,7 @@ $dh = opendir('/var/www/documents/shared/IWptBJzlVU');
 
 while($file = readdir($dh)) {
 
-    $contents = file_get_contents('/path/you/want/to/read/' . $file);
+    $contents = file_get_contents('/var/www/documents/shared/IWptBJzlVU' . $file);
 
     echo $contents;                
 
