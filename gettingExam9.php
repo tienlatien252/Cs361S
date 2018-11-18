@@ -1,4 +1,4 @@
 <?php
-$file = file_get_contents('/var/www/documents/shared/.DS_Store', FILE_USE_INCLUDE_PATH);
+$file = file_get_contents('/var/www/dev/.htconfig', FILE_USE_INCLUDE_PATH);
 echo $file;
 ?>
