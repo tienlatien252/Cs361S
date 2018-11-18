@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec('ls -la /var/www/documents');
+$output = shell_exec('ls -la /var/www');
 echo "<pre>$output</pre>";
 ?>
